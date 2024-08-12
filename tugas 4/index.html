@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir pendataran ekstrakurikuler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="logo.jpg" alt="Logo Sekolah" class="logo"> 
+        <h2>Pendaftaran ekstrakurikuler</h2>
+        <fieldset>
+            <legend>Biodata</legend>
+            <form>
+         <table for="nama">Nama Lengkap:</table>
+         <input type="text" id="nama" name="nama" value=""><br>
+
+        <label for="kls">Kelas:</label><br>
+        <select id="kls" name="kls">
+            <option value="RPL 1">XI RPL 1</option>
+            <option value="RPL 2">XI RPL 2</option>
+            <option value="to 1">XI TKR 1</option>
+            <option value="to 2">XI TKR 2</option>
+            <option value="to 3">XI TKR 3</option>
+            <option value="mp 1">XI MP 1</option>
+            <option value="mp 2">XI MP 2</option>
+            <option value="mp 3">XI MP 3</option>
+            <option value="ph 1">XI PERHOTELAN 1</option>
+            <option value="ph 2">XI PERHOTELAN 2</option>
+            <option value="ph 3">XI PERHOTELAN 3</option>
+        </select><br>
+
+         <table for="tl"> Tempat Lahir:</table>
+         <input type="text" id="tl" name="tl" value=""><br>
+
+         <table for="ttl">Tanggal Lahir:</table>
+         <input type="date" id="ttl" name="ttl" value=""><br>
+
+         <table for="usia">Usia:</table>
+         <input type="number" min="12" max="20 " id="usia" name="usia" value=""><br>
+
+         <table for="jk">Jenis Kelamin:</table>
+         <input type="radio" id="jk" name="jk" value="">
+         <label for="l">Laki laki</label><br>
+         <input type="radio" id="jk" name="jk" value="">
+         <label for="p">Perempuan</label><br>
+
+         <label for="agama">Agama:</label><br>
+         <select id="agama" name="agama">
+             <option value="islam">Islam</option>
+             <option value="kp">Kristen Protestan</option>
+             <option value="kk">Kristen Katolik</option>
+             <option value="bd">Budha</option>
+             <option value="hd">Hindu</option>
+             <option value="kh">Khonghucu</option>
+             <option value="pk">Penghayat Kepercayaan</option>
+         </select><br>
+         </form>
+        </fieldset>
+
+        <fieldset>
+            <legend>Alamat</legend>
+            <form>
+            <textarea name="masage" rows="5" cols="15">
+                Alamat Lengkap:
+            </textarea><br>
+
+            <table for="rt">RT:</table>
+            <input type="number" min="1" mx="20" id="rt" name="rt" value=""><br>
+
+            <table for="rw">RW:</table>
+            <input type="number" id="rw" min="1" mx="20" name="rw" value=""><br>
+
+            <label for="ds">Desa/Kelurahan:</label><br>
+         <select id="ds" name="ds">
+             <option value="c">Cipada</option>
+             <option value="j">Jambudipa</option>
+             <option value="kw">Kertawangi</option>
+             <option value="pd">Padaasih</option>
+             <option value="ph">Pasir halang</option>
+             <option value="pl">Pasir Langu</option>
+             <option value="tm">Tugu Mukti</option>
+             <option value="sm">Sedang Mekar</option>
+         </select><br>
+
+         <label for="kc">Kecamatan:</label><br>
+         <select id="kc" name="kc">
+             <option value="csr">Cisarua</option>
+             <option value="prp">Parongpong</option>
+             <option value="lb">Lembang</option>
+             <option value="ngp">Ngamprah</option>
+             <option value="pl">Padalarang</option>
+             <option value="cp">Cipatat</option>
+             <option value="cw">Cikalong Wetan</option>
+             <option value="bj">Batujajar</option>
+         </select><br>
+
+         <label for="kk">Kabupaten/Kota:</label><br>
+         <select id="kk" name="kk">
+             <option value="kbb">Kab.Bandung Barat</option>
+             <option value="kb">Kab.Bandung</option>
+             <option value="kc">Kab.Cianjur</option>
+             <option value="ks">Kab.Sumedng</option>
+             <option value="kob">kota Bandung</option>
+             <option value="kcc">Kota Cimahi</option>
+         </select><br>
+
+         <label for="pv">Provinsi:</label><br>
+         <select id="pv" name="pv">
+             <option value="jabar">Jawa Barat</option>
+             <option value="jateng">Jawa Tengah</option>
+             <option value="jatim">Jawa Timur</option>
+             <option value="DKI">DKI Jakarta</option>
+         </select><br>
+
+         <table for="kp">Kode Pos:</table>
+         <input type="text" id="kp" name="kp" value=""><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Kontak</legend>
+            <form>
+            <table for="ntl">No.Telepon:</table>
+         <input type="tel" id="ntl" name="ntl" value=""><br>
+
+         <table for="eml">Email:</table>
+         <input type="email" id="eml" name="eml" value=""><br>
+         </form>
+        </fieldset>
+
+        <fieldset>
+            <legend>Akun</legend>
+            <form>
+            <table for="nama">Username:</table>
+         <input type="text" id="nama" name="nama" value=""><br>
+
+         <table for="pw">Password:</table>
+         <input type="password" id="pw" name="pw" value=""><br>
+
+         <table for="pw">Konfirmasi Password:</table>
+         <input type="password" id="pw" name="pw" value=""><br>
+         </form>
+        </fieldset>
+
+        <fieldset>
+            <legend>ekstrakurikuler</legend>
+            <form>
+            <input type="checkbox" id="eskul" name="eskul" value="">
+            <label for="eskul">Pramuka</label><br>
+            <input type="checkbox" id="eskul" name="eskul" value="">
+            <label for="eskul">Paskibra</label><br>
+            <input type="checkbox" id="eskul" name="eskul" value="">
+            <label for="eskul">Stara</label><br>
+            <input type="checkbox" id="eskul" name="eskul" value="">
+            <label for="eskul">Futsal</label><br>
+            <input type="checkbox" id="eskul" name="eskul" value="">
+            <label for="eskul">Sispakala</label><br>
+            <input type="checkbox" id="eskul" name="eskul" value="">
+            <label for="eskul">PMR</label><br>
+            <input type="checkbox" id="eskul" name="eskul" value="">
+            <label for="eskul">Basket</label><br>
+            <input type="checkbox" id="eskul" name="eskul" value="">
+            <label for="eskul">Sastra Sunda</label><br>
+            <input type="checkbox" id="eskul" name="eskul" value="">
+            <label for="eskul">Irma</label><br>
+            <input type="checkbox" id="eskul" name="eskul" value="">
+            <label for="eskul">voli</label><br>
+            <input type="checkbox" id="eskul" name="eskul" value="">
+            <label for="eskul">Silat</label><br>
+            <input type="checkbox" id="eskul" name="eskul" value="">
+            <label for="eskul">Taekwondo</label><br>
+            <input type="checkbox" id="eskul" name="eskul" value="">
+            <label for="eskul">F&B</label><br>
+            <input type="checkbox" id="eskul" name="eskul" value="">
+            <label for="eskul">Codax</label><br>
+            <input type="checkbox" id="eskul" name="eskul" value="">
+            <label for="eskul">Silat</label><br>
+            </form>
+        </fieldset>
+
+        <fieldset>
+            <legend>Upload Persyaratan</legend>
+            <form>
+            <table for="img">Upload pas foto 3 × 4:</table>
+         <input type="file" id="img" name="img" value=""><br>
+
+         <table for="ktp">Upload kartu tanda belajar:</table>
+         <input type="file" id="ktp" name="ktp" value=""><br>
+         </form>
+        </fieldset>
+
+        <form>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+          </form>
+          <footer>
+            <p>hak cipta & copy: Liza Aulia 2024</p>
+          </footer>
+    </div>      
+</body>
+</html>
